@@ -1,0 +1,25 @@
+{
+  "name": "utsho-ecommerce",
+  "version": "2.0.0",
+  "description": "UTSHO full-stack e-commerce application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seed/seed.js"
+  },
+  "keywords": ["ecommerce", "node", "express", "mongodb", "socket.io"],
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1",
+    "morgan": "^1.11.0",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
